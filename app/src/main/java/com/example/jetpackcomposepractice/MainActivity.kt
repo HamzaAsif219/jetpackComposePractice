@@ -10,6 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.jetpackcomposepractice.BottomNavigationPractice.mainScreen.BottomAppBar
 import com.example.jetpackcomposepractice.BottomNavigationPractice.mainScreen.MainBottomBarScreen
 import com.example.jetpackcomposepractice.DrawerNavigationPractice.MainDrawerNavigationScreen
+import com.example.jetpackcomposepractice.createpdf.TextToPdfScreen
 import com.example.jetpackcomposepractice.quoteApp.dataManager.DataManager
 import com.example.jetpackcomposepractice.stateManagePractice.viewmodel.StateTestViewModel
 import com.example.jetpackcomposepractice.todoApp.viewModel.TodoViewModel
@@ -22,6 +23,7 @@ class MainActivity : ComponentActivity() {
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
 //        enableEdgeToEdge()
         CoroutineScope(Dispatchers.IO).launch {
 //            delay(10000)
@@ -49,7 +51,8 @@ class MainActivity : ComponentActivity() {
 
 //                    MainBottomBarScreen()
 //                    BottomAppBar()
-                    MainDrawerNavigationScreen()
+//                    MainDrawerNavigationScreen()
+                    TextToPdfScreen()
                 }
             }
         }
