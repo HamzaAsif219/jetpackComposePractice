@@ -7,7 +7,9 @@ import androidx.activity.compose.setContent
 import androidx.annotation.RequiresApi
 import androidx.compose.material3.Surface
 import androidx.lifecycle.ViewModelProvider
+import com.example.jetpackcomposepractice.BottomNavigationPractice.mainScreen.BottomAppBar
 import com.example.jetpackcomposepractice.BottomNavigationPractice.mainScreen.MainBottomBarScreen
+import com.example.jetpackcomposepractice.DrawerNavigationPractice.MainDrawerNavigationScreen
 import com.example.jetpackcomposepractice.quoteApp.dataManager.DataManager
 import com.example.jetpackcomposepractice.stateManagePractice.viewmodel.StateTestViewModel
 import com.example.jetpackcomposepractice.todoApp.viewModel.TodoViewModel
@@ -45,7 +47,9 @@ class MainActivity : ComponentActivity() {
 //            App()
 
 
-                    MainBottomBarScreen()
+//                    MainBottomBarScreen()
+//                    BottomAppBar()
+                    MainDrawerNavigationScreen()
                 }
             }
         }
