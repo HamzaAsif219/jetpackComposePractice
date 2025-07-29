@@ -11,6 +11,7 @@ import com.example.jetpackcomposepractice.BottomNavigationPractice.mainScreen.Bo
 import com.example.jetpackcomposepractice.BottomNavigationPractice.mainScreen.MainBottomBarScreen
 import com.example.jetpackcomposepractice.DrawerNavigationPractice.MainDrawerNavigationScreen
 import com.example.jetpackcomposepractice.createpdf.TextToPdfScreen
+import com.example.jetpackcomposepractice.createpdfFromImage.PdfFromImageScreen
 import com.example.jetpackcomposepractice.quoteApp.dataManager.DataManager
 import com.example.jetpackcomposepractice.stateManagePractice.viewmodel.StateTestViewModel
 import com.example.jetpackcomposepractice.todoApp.viewModel.TodoViewModel
@@ -52,7 +53,8 @@ class MainActivity : ComponentActivity() {
 //                    MainBottomBarScreen()
 //                    BottomAppBar()
 //                    MainDrawerNavigationScreen()
-                    TextToPdfScreen()
+//                    TextToPdfScreen()
+                    PdfFromImageScreen()
                 }
             }
         }
